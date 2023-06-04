@@ -1,0 +1,68 @@
+body {
+  display:flex;
+  justify-content: center;
+  background-color:bisque;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  font-family: Calibri;
+  font-size: 24px;
+}
+
+.TitleSection {
+  display:flex;
+  background-color: #d8dde1;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #272216;
+}
+
+.TitleSection input {
+
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #5e98b1;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.TitleSection button {
+  display:flex;
+  justify-content: center;
+  width: 180px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  justify-content:center;
+  font-size: 20px;
+  padding-left: 10px;
+  border: none;
+  color: #e7e7e6;
+  background-color: #006cbf
+}
+
+.TitleSection button:hover {
+  cursor: pointer;
+}
+
+h3{
+  display:flex;
+  justify-content: center;
+}
+
+.DisplaySection{
+  display:flex;
+  background-color:#615829;
+  color:#d8dde1;
+
+}
